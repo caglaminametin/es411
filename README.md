@@ -25,9 +25,11 @@ Bu proje, görüntü sınıflandırma (image classification) amacıyla oluşturu
 
 🚀 Nasıl Çalıştırılır:
 
-1. config.yaml içindeki veri yollarını güncelle (Google Drive vb.)
+1. cd cnn_project
 
-2. Ana script’i çalıştır:
+2. config.yaml içindeki veri yollarını güncelle (Google Drive vb.)
+
+3. Ana script’i çalıştır:
    python main.py
 
 Eğitim sonrası loss/accuracy grafiklerini çizer ve en iyi modeli 'best_model.keras' olarak kaydeder.
@@ -57,9 +59,11 @@ This project implements a custom Convolutional Neural Network (CNN) for image cl
 
 🚀 How to Run:
 
-1. Update data paths in config.yaml
+1. cd cnn_project
 
-2. Run the training:
+2. Update data paths in config.yaml
+
+3. Run the training:
    python main.py
 
 At the end of training, it will save the best model as 'best_model.keras' and visualize performance.
