@@ -1,0 +1,17 @@
+
+general:
+  project_name: cnn_project
+  random_seed: 42
+
+training:
+  input_shape: [128, 128, 3]
+  num_classes: 6
+  batch_size: 32
+  epochs: 50
+  patience: 200
+
+paths:
+  train_dir: /content/drive/MyDrive/dataset_split/train
+  val_dir: /content/drive/MyDrive/dataset_split/val
+  test_dir: /content/drive/MyDrive/dataset_split/test
+  checkpoint_path: best_model.keras
